@@ -1,2 +1,3 @@
 *
-!/_module01/
+!./_module01/*
+!.gitignore
