@@ -76,8 +76,9 @@ git have 3 level of configuration
 
     -e for configuring in code editor
 
+---
 
-                          --------HOW TO USE GIT------
+# HOW TO USE GIT
 
 ## Initialize git ==>
 
