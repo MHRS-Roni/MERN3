@@ -53,12 +53,14 @@ git have 3 level of configuration
 - global level
 - local level
 
-**System level** configuration is saved in `/etc/gitconfig` .all the user of the system is included here.   //
-    git config --system
-**global level** configuration is saved in `~/gitconfig` ..Only the current user in included here.It override System level configuration  //
-    git config --global
-**local level** configuration is saved in `.git/config` ..It include_ only the current repository.Override all level configuration  //
-     git config --local
+**System level** configuration is saved in `/etc/gitconfig` .all the user of the system is included here.   
+git config --system
+
+**global level** configuration is saved in `~/gitconfig` ..Only the current user in included here.It override System level configuration  
+git config --global
+
+**local level** configuration is saved in `.git/config` ..It include_ only the current repository.Override all level configuration  
+git config --local
 
 ### configuring git
 
