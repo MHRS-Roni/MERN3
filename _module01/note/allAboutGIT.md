@@ -32,7 +32,7 @@ git have 3 level of configuration
 - global level 
 - local level
 
-**System level configuration is saved in /etc/gitconfig ..all the user of the system is included here.**
+** System level ** * configuration is saved in /etc/gitconfig ..all the user of the system is included here. *
 git config --system
 **global level configuration is saved in ~/gitconfig ..Only the current user in included here.It override System level configuration**
 git config --global
