@@ -7,6 +7,8 @@
 // STEP 4 : Log the product to the console in the format "num x iteration = product".
 // STEP 5 : Test the function with different input numbers to generate multiplication tables.
 
+// * Some other modification were made to make the project more beautiful
+
 //? Answer
 
 function multiplicationTable( num ){                     // STEP 1 : Done
@@ -22,4 +24,4 @@ multiplicationTable(3);                                  // STEP 5 : Done
 multiplicationTable(4);                                  // STEP 5 : Done
 multiplicationTable(9);                                  // STEP 5 : Done
 
-//! there are some 
+//! there are some limitation in this version of code..You must invoke the function with number as arguments.Otherwise, you may not get the expected result.....
