@@ -98,9 +98,9 @@ NOTE : You have to be uptodate means you cann't have any modified or staged file
 # Hosting your git repository in github
 
 ## linking remote repository
-    first create a new repository and copy the http or ssh url..
-        http is easy to use but less secure than ssh
-        ssh is more difficult to use but more secure
+first create a new repository and copy the http or ssh url..
+http is easy to use but less secure than ssh
+ssh is more difficult to use but more secure
     git remote                                       to indicate remote repository then write
                 add                                  to add remote repository link
                      origin                          to name the repository link deafult origin
@@ -117,13 +117,11 @@ NOTE : You have to be uptodate means you cann't have any modified or staged file
 
   ## Pushing in remote repository
     git push -u origin main                          to push your code to remote repository
-            Here, -u means the upstream you have to set the upstream for the push,after this you can just use git push to push.
-                  origin, is the link where you want to push your code.Origin is the default allies of the remote repository link.
-                  main,here main means local main branch and remote main branch,,when both are same you can just say that branch name.
+Here, -u means the upstream you have to set the upstream for the push,after this you can just use git push to push origin is the link where you want to push your code.Origin is the default allies of the remote repository link.here main means local main branch and remote main branch,,when both are same you can just say that branch name.
 
-        ***when your branch name are not same.You can write
+ ## when your branch name are not same.You can write
     git remote -u origin local-branch:remote-branch
-            Here, local-branch is the name of the local branch and remote branch is the name of the remote branch.
+Here, local-branch is the name of the local branch and remote branch is the name of the remote branch.
 
   ## Pulling data from the remote repository
     git pull origin main                            to pull from the origin link's main branch
