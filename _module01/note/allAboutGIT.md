@@ -23,7 +23,7 @@
 
                             ---HOW TO CONFIGURE GIT---    
 # level of configuration
-git have 3 level of configuration 
+--git have 3 level of configuration 
         system level
         global level
         local level
