@@ -24,9 +24,9 @@
                             ---HOW TO CONFIGURE GIT---    
 # level of configuration
 git have 3 level of configuration 
-    system level
-    global level
-    local level
+        system level
+        global level
+        local level
 
 **System level configuration is saved in /etc/gitconfig ..all the user of the system is included here.**
  git config --system
