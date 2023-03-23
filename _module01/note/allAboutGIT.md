@@ -23,17 +23,17 @@
 
                             ---HOW TO CONFIGURE GIT---    
 # level of configuration
-    git have 3 level of configuration 
-         system level
-         global level
-         local level
+git have 3 level of configuration 
+    system level
+    global level
+    local level
 
-*System level configuration is saved in /etc/gitconfig ..all the user of the system is included here 
-    git config --system
-*global level configuration is saved in ~/gitconfig ..Only the current user in included here.It override System level  configuration
-    git config --global
-*local level configuration is saved in .git/config ..It include only the current repository.Override all level configuration
-    git config --local
+**System level configuration is saved in /etc/gitconfig ..all the user of the system is included here.**
+ git config --system
+**global level configuration is saved in ~/gitconfig ..Only the current user in included here.It override System level  configuration**
+ git config --global
+**local level configuration is saved in .git/config ..It include only the current repository.Override all level configuration**
+ git config --local
 
 # configuring git
     git config --levelOFConfiguratioin whatYouWantToSet value
@@ -97,7 +97,7 @@ NOTE : You have to be uptodate means you cann't have any modified or staged file
 
 # Hosting your git repository in github
 
-## linking remote repository
+ ## linking remote repository
 first create a new repository and copy the http or ssh url..
 http is easy to use but less secure than ssh
 ssh is more difficult to use but more secure
@@ -117,7 +117,7 @@ ssh is more difficult to use but more secure
 
   ## Pushing in remote repository
     git push -u origin main                          to push your code to remote repository
-Here, -u means the upstream you have to set the upstream for the push,after this you can just use git push to push origin is the link where you want to push your code.Origin is the default allies of the remote repository link.here main means local main branch and remote main branch,,when both are same you can just say that branch name.
+Here, -u means the upstream you have to set the upstream for the push,after this you can just use git push to push origin is the link where you want to push your code.Origin is the default allies of the remote repository link.here main means local main branch and remote main branch,,when both are same you can just say the branch name.
 
  ## when your branch name are not same.You can write
     git remote -u origin local-branch:remote-branch
