@@ -2,7 +2,7 @@
 
 # github is a web based platform for hosting git repositories
 
-# About git
+---
 
 ## uses and benefits of git
 
@@ -53,11 +53,11 @@ git have 3 level of configuration
 - global level
 - local level
 
-**System level** _configuration is saved in /etc/gitconfig ..all the user of the system is included here._  
+**System level** _configuration is saved in */etc/gitconfig* .all the user of the system is included here._  
  `git config --system`
-**global level** _configuration is saved in ~/gitconfig ..Only the current user in included here.It override System level configuration_  
+**global level** _configuration is saved in _ ~/gitconfig _ ..Only the current user in included here.It override System level configuration_  
  `git config --global`
-**local level** _configuration is saved in .git/config ..It include only the current repository.Override all level configuration_  
+**local level** _configuration is saved in * .git/config * ..It _include_ only the current repository.Override all level configuration_  
  `git config --local`
 
 ### configuring git
