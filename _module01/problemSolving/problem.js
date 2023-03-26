@@ -296,25 +296,134 @@
 // }//! end Solution 06
 
 
-{//* Solution 07: with while and nested do...while loop
-    console.log("Challenge 04: with while and nested do...while loop")
-    let i = 1;
-    while(i <= 10){
-        let j = 1;
-        console.log("Multipllication Table "+ i);
-        do{
-            console.log(i +' * '+ j +" = "+ i*j++);
-        }while(j <= 10);
-        console.log("")
-        i++;
+// {//* Solution 07: with while and nested do...while loop
+//     console.log("Challenge 04: with while and nested do...while loop")
+//     let i = 1;
+//     while(i <= 10){
+//         let j = 1;
+//         console.log("Multipllication Table "+ i);
+//         do{
+//             console.log(i +' * '+ j +" = "+ i*j++);
+//         }while(j <= 10);
+//         console.log("")
+//         i++;
+//     }
+// }//! end Solution 07
+
+
+// {//* Solution 08: with while and recursive function
+//   console.log("Challenge 04: with while and recursive function")
+//   let i = 1;
+//   while(i <= 10){
+//     console.log("Multiplication Table "+ i);
+//     let j = 1;
+//     const challenge04WR = j =>{
+//       console.log(i +" * "+ j +" = "+ i*j)
+//       j < 10 ? challenge04WR(j+1) : {};
+//     }
+//     challenge04WR(j);
+//     console.log("");
+//     i++;
+//   }
+// }//! end Solution 08
+
+
+// {//* Solution 09: with do...while and nested for loop
+//   console.log("Challenge 04: with do...while and nested for loop")
+//   let i = 1;
+//   do{
+//     console.log("Multiplication table "+ i);
+//     for(let j = 1; j <= 10; j++){
+//       console.log(i +" * "+ j + " = "+ i*j);
+//     }
+//     console.log("");
+//     i++;
+//   }while(i <= 10)
+
+// }//! end Solution 09
+
+
+// {//* Solution 10: with do...while and nested while loop
+//   console.log("Challenge 04: with do...while and nested while loop");
+//   let i = 1;
+//   do{
+//     console.log("Multiplication Table "+ i);
+//     let j = 1;
+//     while(j <= 10){
+//       console.log(i +" * "+ j +" = "+ i*j++);
+//     }
+//     console.log("");
+//     i++;
+//   }while(i <= 10)
+// }//! end Solution 11
+
+
+// {//* Solution 11: with do...while and nested do...while loop
+//   console.log("Challenge 04: with do...while and nested do...while loop")
+//   let i = 1;
+//   do{
+//     console.log("Multiplication Table "+ i);
+//     let j = 1;
+//     do{
+//       console.log(i +" * "+ j +" = "+ i*j++)
+//     }while(j <= 10);
+//     console.log();
+//     i++;
+//   }while(i <= 10)
+// }//! end Solution 11
+
+
+// {//* Solution 12: with do...while and recursive function
+//   console.log("Challenge 04: with do...while and recursive function")
+//   let i = 1;
+//   do{
+//     console.log("Multiplication Table "+ i);
+//     let j = 1;
+//     const challenge04DR = () =>{
+//       console.log(i +" * "+ j +" = "+ i*j++)
+//       j <= 10 ? challenge04DR() : {};
+//     }
+//     challenge04DR()
+//     console.log()
+//     i++;
+//   }while(i <= 10)
+// }//! end Solution 12
+
+
+// {//* Solution 13: with recursive function and for loop
+//   console.log("Challenge 04: with recursive function and for loop")
+//   let start = 1;
+//   const challenge04RF = start =>{
+//     console.log("Multiplication Table "+ start);
+//     for(let n = 1; n <=10; n++){
+//       console.log(start +" * "+ n +" = "+ start*n)
+//     }
+//     console.log();
+//     start < 10 ? challenge04RF(start + 1) : {};
+//   }
+//   challenge04RF(start);
+// }//! end Solution 13
+
+
+{//* Solution 14: with recursive function and while loop 
+  console.log("Challenge 04: with recursive function and while loop")
+  let tableNumber = 1;
+  const challenge04RW = tableNumber =>{
+    console.log("Multiplication Table "+ tableNumber)
+    let rowNumber = 1;
+    while(rowNumber <= 10){
+      console.log(tableNumber +" * "+ rowNumber +" = "+ tableNumber *rowNumber++);
     }
-}//! end Solution 07
+    console.log();
+    tableNumber < 10 ? challenge04RW(tableNumber + 1) : {};
+  }
+  challenge04RW(tableNumber);
+}//! end Solution 14
 
 
-{//}
-
-
-
+{//* Solution 15: with recursive function and do...while loop
+  console.log("Challenge 04: with recursive Table and do...while")
+}
 
 
 
