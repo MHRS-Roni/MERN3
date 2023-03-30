@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator with Vanila JS | MERN 03 Assignment 02</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- google-fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="display">
+        <h1>BMI Calculator</h1>
+        <div class="form" >
+            <div><input  type="text" name="name" id="nameInput" placeholder="Name" required ><span class="required"><sup>*</sup></span></div>
+            <div><input type="text" name="weight" id="weightInput" class="weightInput" placeholder="Weight (kg)" required><span class="required"><sup>*</sup></span><p class="wrongInput" id="wrongInputW">Only 0-9 allowed</p></div>
+            <div class="unit-container">
+                <label for="unit">Select Unit</label>
+                <select name="unit" id="unit">
+                    <option value="meterCenti" selected>meter and cm</option>
+                    <option value="feetInch" >feet and inch</option>
+                </select>
+            </div>
+            <div><input type="text" name="height" id="heightInput" class="heightInput" placeholder="Height" required><span class="required"><sup>*</sup></span> <abbr title="FORMAT : (m)  (cm) or (ft)  (in)" style="color:#185cd1"> ?</abbr></div>
+            <p class="wrongInput" id="wrongInputH">Only 0-9, space and . allowed</p>
+          
+            
+            <button id="calculateBtn" class="calculateBtn">Calculate</button>
+
+        </div>
+        <section class="calculatedResult-container" id="calculatedResult-container">
+            <div id="calculatedResult">
+                <div class="details"><div class="detailss" id="details-color"><p class="detail" id="bmib">BMI </p></div><p id="bmi">gfg</p></div> 
+                <div class="details"><div class="detailss"><p class="detail detail-color ">Name  </p></div><p class="detail" id="name">gfg</p></div> 
+                <div class="details"><div class="detailss"><p class="detail detail-color ">Weight  </p></div><p class="detail" id="weight">df</p></div>
+                <div class="details"><div class="detailss"><p class="detail detail-color ">Height  </p></div><p class="detail" id="height">df</p></div>
+                <div class="details"><div class="detailss" id="details-color"><p class="detail " id="statusb">Status  </p></div><p id="status">df</p></div>
+            </div>
+
+        </section>
+
+
+
+
+    </div>
+
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
