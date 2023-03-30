@@ -59,12 +59,12 @@ namesInp.addEventListener("blur",function(){
 })
 //weight input validate
 weightInp.addEventListener('keyup',function(){
-    const match = /([0-9])?(\.)?/
+    const match = /([0-9.])/
     if(event.keyCode == 8){}
     else if(event.key == "Enter"){
         weightInp.blur();
     }else{
-    match.test(event.key) || event.key == "." || event.key == " "  ? weight = weightInp.value  :(( wrongInputW.style.display = "block"),weightInp.value = weight);
+    match.test(event.key)? weight = weightInp.value  :(( wrongInputW.style.display = "block"),weightInp.value = weight);
 }})
 weightInp.addEventListener('focus',function(){
     weightInp.value = '';
@@ -80,7 +80,7 @@ weightInp.addEventListener('blur',function(){
 
 //height input validate
 heightInp.addEventListener("keyup",function(){
-    const match = /([0-9])?(\.)?(\s)?/
+    const match = /([0-9 .])/
     if(event.keyCode == 8){}
     else if(event.key == "Enter"){
         heightInp.blur();
